@@ -1,0 +1,12 @@
+.image-style{
+    width: 310px;
+    height: 80px;
+}
+.style-nav{
+    color: rgb(27, 26, 26);
+    background-color: rgb(243, 242, 242);
+    border:1px solid cornsilk;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px 10px 5px 10px;
+}

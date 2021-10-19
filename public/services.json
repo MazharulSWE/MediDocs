@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name": "DIAGNOSTIC",
+        "specialist": "Dr. Aziz Khan",
+        "description": "We consider all the signs and symptoms of a patient to diagnose.",
+        "img": "https://www.cdc.gov/nceh/features/medical-imaging-procedures/medical-imaging-procedures_600px.jpg"
+      },
+    {
+        "id": 2,
+        "name": "LABORATORY",
+        "specialist": "Dr. Muntasir Billah",
+        "description": "For patients’ convenience, we run the lab right here at our facility.",
+        "img": "https://www.usabroadhc.com/wp-content/uploads/2016/11/lab-diagnostic.jpg"
+      },
+    {
+        "id": 3,
+        "name": "THERAPEUTICS",
+        "specialist": "Dr. Daud Kim",
+        "description": "We guarantee our patients the most effective treatment at the clinic.",
+        "img": "https://www.news-medical.net/image.axd?picture=2021%2F4%2Fshutterstock_658289803.jpg"
+      },
+    {
+        "id": 4,
+        "name": "SURGERY",
+        "specialist": "Dr. Ibn Sina",
+        "description": "We consider all the signs and symptoms of a patient to diagnose.",
+        "img": "https://www.farnorthsurgery.com/blog/Uploads/FeaturedImage/Abdominal-Surgery-Overview_0.png"
+      },
+    {
+        "id": 5,
+        "name": "CARDIOLOGY",
+        "specialist": "Dr. Al Tabari",
+        "description": "Cardiology is the study and treatment of disorders of the heart and the blood vessels.",
+        "img": "https://www.nm.org//-/media/northwestern/healthbeat/images/health%20library/nm-ten-signs-cardiologist_preview.jpg"
+      },
+    {
+        "id": 6,
+        "name": "PHYSICAL THERAPY",
+        "specialist": "Dr. Abdullah",
+        "description": "Terapy beanbags solve this. They mold themselves completely to your body, thanks to the fine EPS granules that are used as filling..",
+        "img": "https://core3pt.com/wp-content/uploads/2020/09/PAM_4000-scaled.jpg"
+      },
+    {
+        "id": 7,
+        "name": "NEUROLOGY",
+        "specialist": "Dr. Rakib Hasan",
+        "description": "Neurology is the branch of medicine concerned with the study and treatment of disorders of the nervous system.",
+        "img": "https://spinalresearch.com.au/wp-content/uploads/2018/11/AdobeStock_207658006-e1542932657582.jpeg"
+      }
+]

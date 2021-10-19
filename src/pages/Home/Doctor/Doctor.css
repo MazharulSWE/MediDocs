@@ -1,0 +1,38 @@
+.doctor{
+    max-width: 370px;
+    margin: 0 auto;
+    margin-top: 3vh;
+    background-color: white;
+    box-shadow: darkgray;
+    padding: 7px;
+    border: 1px solid gray;
+    border-radius: 12px;
+    box-shadow: 5px 5px 5px 5px grey;
+}
+
+.doctor img{
+    width: 70%;
+    border: 1px solid rgb(106, 180, 116);
+    border-radius: 50%;
+    height: 220px;
+    object-fit: cover;
+}
+.doctor button{
+    border: none;
+    padding: 12px 24px;
+    border-radius: 10px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(92, 211, 151);
+}
+.doctor h1{
+    font-size: xx-large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(21, 177, 230);
+}
+.doctor h3{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: dimgrey;
+}

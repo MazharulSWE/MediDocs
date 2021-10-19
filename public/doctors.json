@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Dr.Muntasir Billah",
+        "specialist": "Cardiology Specialist",
+        "country": "Bangladesh",
+        "description": "Muntsir billah is a famous cardiology specialist.He has 5 years of experience in this respective department.He studied in Dhaka University",
+        "img": "https://www.blogoval.com/wp-content/uploads/2021/07/portrait-smiling-handsome-male-doctor-man_171337-5055.jpg"
+      },
+    {
+        "id": 2,
+        "name": "Dr. Rezwana",
+        "specialist": "Dentist",
+        "country": "Pakistan",
+        "description": "Dr. Rezwana Khanom is a famous Dentist. He has 3 years of experience in this respective department.He studied in Rawal Pindi Dental University.",
+        "img": "https://www.pngkit.com/png/detail/10-100458_female-doctor-png-picture-indian-lady-doctor-png.png"
+      },
+    {
+        "id": 3,
+        "name": "Dr. Smith Jhonson",
+        "specialist": "Dermatologist",
+        "country": "USA",
+        "description": " Dr. Smith Jhonson is a famous Dermatologist. He has 7 years of experience in this respective field.He studied in Chicago state University.",
+        "img": "https://s3-eu-west-1.amazonaws.com/intercare-web-public/wysiwyg-uploads%2F1569586526901-doctor.jpg"
+      },
+    {
+        "id": 4,
+        "name": "Dr.Justin Beckham",
+        "specialist": "General Doctor",
+        "country": "Germany",
+        "description": "Dr. Justin Beckham is a famous Doctor from Germany.He has 6 years of experience working in different Hospitals .He studied in Berlin Medical Center",
+        "img": "https://ak.picdn.net/shutterstock/videos/15902578/thumb/1.jpg"
+      },
+    {
+        "id": 5,
+        "name": "Dr. Rakib Hasan",
+        "specialist": "Lab Expert",
+        "country": "Bangladesh",
+        "description": "Dr. Mahmudul Hasab Rakib is a famous Lab specialist.He has 3 years of experience in this respective department and he worked in different hospitals. He studied in Jamuna Mats College.",
+        "img": "https://i.ibb.co/GJ74yh2/rakib.jpg"
+      },
+    {
+        "id": 6,
+        "name": "Dr. Jennifer Winds",
+        "specialist": "Neurology Specialist",
+        "country": "USA",
+        "description": "Dr. Jennifer Winds is a famous Neurology specialist. She has 8 years of experience in this respective department.He studied in New Work Central Medical University",
+        "img": "https://wallpaperaccess.com/full/619997.png"
+      }
+]

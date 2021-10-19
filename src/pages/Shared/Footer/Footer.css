@@ -1,0 +1,32 @@
+#footer{
+    margin-top: 80px;
+    background-color: rgba(7, 7, 7, 0.842);
+    border-top: 1px solid #E7E7E7;
+}
+#footer h2{
+    color: white;
+    padding-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: bolder;
+}
+#footer p{
+    color: whitesmoke;
+    padding-top:10px ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+#footer input{
+    margin-right: 10px;
+    width: 400px;
+    height: 40px;
+    border: 2px solid paleturquoise;
+    border-radius: 10px;
+}
+#footer button{
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    background-color: paleturquoise;
+    border: 2px solid honeydew;
+    border-radius: 10px;
+}
