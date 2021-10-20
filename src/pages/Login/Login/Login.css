@@ -23,6 +23,7 @@
 } */
 
 .login-section{
+    background-image: url('');
     display: flex;
     justify-content: center;
     align-items: center;
