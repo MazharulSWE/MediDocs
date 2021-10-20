@@ -33,7 +33,7 @@ const useFirebase = ()=>{
             setIsaLoading(false);
         });
         return ()=> unsubscribed;
-    },[auth])
+    },[])
 
     const logOut =()=>{
         setIsaLoading(true);

@@ -12,7 +12,7 @@ const Details = () => {
        .then(data =>setDetails(data))
    },[]);
 
-   const findDetail = details.find((detail)=> detail.id === serviceId);
+   const findDetail = details.find((detail)=> detail.id == serviceId);
    console.log(findDetail);
 
     return (
