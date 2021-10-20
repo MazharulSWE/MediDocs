@@ -1,52 +1,101 @@
-import { getAuth, signInWithPopup, GoogleAuthProvider, signOut, onAuthStateChanged } from "firebase/auth";
+import { getAuth, 
+         signInWithPopup, 
+         GoogleAuthProvider, 
+         signOut, 
+         onAuthStateChanged,
+         signInWithEmailAndPassword,
+         createUserWithEmailAndPassword, 
+         updateProfile, } from "firebase/auth";
 import { useEffect, useState } from "react";
+import Register from "../pages/Login/Register/Register";
 import initializeAuthentication from "../pages/Login/Firebase/firebase.init";
+
 
 
 initializeAuthentication();
 
+const auth = getAuth();
+const googleProvider = new GoogleAuthProvider();
+
+
+
 const useFirebase = ()=>{
     const [user, setUser] = useState({});
+    const [error, setError] = useState("");
+    // const [isLoading, setIsaLoading] = useState(true);
 
-    const [isLoading, setIsaLoading] = useState(true);
 
-    const auth = getAuth();
 
+// Google sign in
     const signInUsingGoogle =()=>{
-        setIsaLoading(true);
-        const googleProvider = new GoogleAuthProvider();
-        signInWithPopup(auth, googleProvider)
-        .then(result =>{
-            setUser(result.user);
-        })
-        .finally(() => setIsaLoading(false));
+        // setIsaLoading(true);
+        return signInWithPopup(auth, googleProvider).catch((error)=>{
+            setError(error.message)
+        });
+        // .then(result =>{
+        //     setUser(result.user);
+        // })
+        // .finally(() => setIsaLoading(false));
 
-    }
+    };
+
+    // sign in user
+    const userSignInWithEmailPass = (email, password) =>{
+        return(
+            signInWithEmailAndPassword(auth, email,password)
+            .catch((error) => {
+                setError("wrong email or password");
+            })
+        );
+    };
+
+
+    // sign out user
+    const userSignOut = () =>{
+        signOut(auth)
+        .then(()=>{
+            setUser({});
+        })
+        .catch((error) =>{
+            //An error occurred
+        })
+        .finally(() =>{
+            window.location.reload();
+        });
+    };
+     
+
+
 // observe user state change
     useEffect(()=>{
-       const unsubscribed = onAuthStateChanged(auth, user=>{
+       onAuthStateChanged(auth,(user) =>{
             if (user) {
-                setUser(user)
+                setUser(user);
             } else {
-                setUser({})
+                // setUser({})
             }
-            setIsaLoading(false);
+            // setIsaLoading(false);
         });
-        return ()=> unsubscribed;
+        // return ()=> unsubscribed;
     },[])
 
-    const logOut =()=>{
-        setIsaLoading(true);
-        signOut(auth)
-        .then(()=>{})
-        .finally(()=> setIsaLoading(false));
-    }
+    // const logOut =()=>{
+    //     setIsaLoading(true);
+    //     signOut(auth)
+    //     .then(()=>{})
+    //     .finally(()=> setIsaLoading(false));
+    // }
 
     return{
        user,
-       isLoading,
+       error,
+       userSignOut,
+       setUser,
+       setError,
+    //    isLoading,
        signInUsingGoogle,
-       logOut
+       userSignInWithEmailPass,
+    //    logOut
     }
 }
 

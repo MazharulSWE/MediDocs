@@ -6,7 +6,7 @@ import logo from '../../../images/logo.png';
 import  './Header.css';
 
 const Header = () => {
-  const {user, logOut} = useAuth();
+  const {user, userSignOut} = useAuth();
     return (
         <>
         <Navbar bg="dark" variant="dark" sticky="top" collapseOnSelect expand="lg"> 
@@ -18,9 +18,11 @@ const Header = () => {
                   <Nav.Link as ={HashLink} className="style-nav" to="/home#services">Services</Nav.Link>
                   <Nav.Link as ={HashLink} className="style-nav" to="/home#appointment">Appointment</Nav.Link>
                   <Nav.Link as ={HashLink} className="style-nav" to="/home#doctors">Doctors</Nav.Link>
+                  <Nav.Link as ={HashLink} className="style-nav" to="/about">About Us</Nav.Link>
+                  <Nav.Link as ={HashLink} className="style-nav" to="/contact">Contact Us</Nav.Link>
                   {
                     user?.email?
-                    <Button onClick={logOut} variant="light" className="style-nav" >Logout</Button>:
+                    <Button onClick={userSignOut} variant="light" className="style-nav" >Logout</Button>:
                     <Nav.Link as ={HashLink} className="style-nav" to="/login">Login</Nav.Link>
                   } 
                   <Navbar.Text>Signed in as: <a href="#login">{user?.displayName}</a></Navbar.Text>

@@ -1,0 +1,11 @@
+/* * Responsive style  */ 
+
+@media only screen and (max-width:688px) {
+    .about{
+        display: block;
+    }
+    .about img{
+        height: fit-content;
+        width: fit-content;
+    }
+}

@@ -1,4 +1,4 @@
-.input-style{
+/* .input-style{
     width: 300px;
     height: 10px;
     padding: 20px;
@@ -20,4 +20,30 @@
     border-radius: 10px;
     color: white;
     font-size: larger;
-}
+} */
+
+.login-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        
+    }
+    
+    .input-field{
+        margin: 7px ;
+        border-radius: 10px;
+        padding: 5px 15px;
+        background-color: rgb(224, 220, 220);
+        border: 1px solid gray;
+    
+    }
+    .common-toggle{
+        color: rgb(247, 150, 40);
+        
+    }
+    .login-section a{
+        text-decoration: none;
+    }
+    body {
+        background-color: rgb(215, 247, 248)
+    }

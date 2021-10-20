@@ -1,23 +1,7 @@
-.input-style{
-    width: 300px;
-    height: 10px;
-    padding: 20px;
-    margin: 3px;
-    background-color: rgb(73, 43, 32);
-    border:2px solid coral;
-    border-radius: 10px;
-    color: white;
+.registration-section a{
     text-decoration: none;
-    font-size: larger;
 }
 
 .submit-btn{
-    margin: 10px;
-    padding: 10px;
-    width: 150px;
-    background-color: rgba(241, 44, 9, 0.651);
-    border:2px solid rgba(32, 21, 28, 0.712);
-    border-radius: 10px;
-    color: white;
-    font-size: larger;
+    background-color: rgb(201, 174, 19);
 }
