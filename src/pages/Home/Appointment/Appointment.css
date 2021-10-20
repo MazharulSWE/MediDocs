@@ -39,6 +39,7 @@
 @media only screen and (max-width:688px) {
     .box input{
         display: block;
+        width: 350px;
     }
     .box button{
         display: block;

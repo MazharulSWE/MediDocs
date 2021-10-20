@@ -48,24 +48,8 @@ const submitForLogin = (event) => {
   }
 console.log(redirect_uri)
 
-
-
     return (
-        // <div id="login">
-        //     <h2>please Login</h2>
-        //     <form className="regi">
-        //           <input className="input-style" type="email" placeholder="Enter Email" />
-        //           <br />
-        //           <input className="input-style" type="password" placeholder="Enter password"/>
-        //           <br />
-        //           <input className="submit-btn" type="submit" value="Submit" />
-        //      </form>
-        //     <h1>---------Or----------</h1>
-        //     <button onClick={signInUsingGoogle} className="btn btn-primary">Google Sign In</button>
-        //      <p>New User? <a href="/register">Register</a></p>
-        // </div>
-
-        <div className="row">
+    <div className="row">
       <div className="col-md-6 col-sm-12 col-12 login-section">
         <div>
           <h1>Please Login</h1>
